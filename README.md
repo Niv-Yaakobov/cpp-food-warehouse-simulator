@@ -18,12 +18,28 @@ The simulation is controlled through commands typed by the user and reflects eac
 - Uses STL (e.g., vectors, strings) and enum types
 - Configurable through an input file
 
-## 🧠 Technologies Used
+## 🚀 How to Build and Run
 
-- C++ (C++11 standard)
-- Valgrind (for memory leak checks)
-- Makefile (for compilation)
-- Unix/Linux (tested on university lab machines)
+1. Open terminal and navigate to the project root:
+   ```bash
+   cd path/to/project
+   ```
 
-## 📂 Project Structure
+2. Run the makefile:
+   ```bash
+   make
+   ```
 
+3. Run the simulation with an input config file:
+   ```bash
+   ./bin/warehouse ExampleInput.txt
+   ```
+
+> 💡 Ensure you're compiling and running on the university lab UNIX machine.
+
+
+## ✍️ Author
+
+- [Niv Yaakobov](https://github.com/Niv-Yaakobov)
+
+> 📚 Created as part of the **Systems Programming** course at SPL University, Fall 2024.
